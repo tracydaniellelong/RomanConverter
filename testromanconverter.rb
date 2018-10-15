@@ -29,4 +29,7 @@ class Testing < Minitest::Test
 	def test_9
 		assert_equal("IX", 9.roman)
 	end
+	def test_1066
+		assert_equal("MLXVI", 1066.roman)
+	end
 end
