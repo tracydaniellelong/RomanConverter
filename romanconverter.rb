@@ -1,6 +1,7 @@
 class Fixnum
 
 	ROMAN_NUMBERS = {
+		100 => 'C',
 		50 => 'L',
 		10 => 'X',
 		5 => 'V',
