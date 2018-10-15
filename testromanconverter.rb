@@ -26,4 +26,7 @@ class Testing < Minitest::Test
 	def test_4
 		assert_equal("IV", 4.roman)
 	end
+	def test_9
+		assert_equal("IX", 9.roman)
+	end
 end
