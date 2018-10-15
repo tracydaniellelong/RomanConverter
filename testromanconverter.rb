@@ -17,4 +17,7 @@ class Testing < Minitest::Test
 	def test_C
 		assert_equal("C", 100.roman)
 	end
+	def test_D
+		assert_equal("D", 500.roman)
+	end
 end
