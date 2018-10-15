@@ -23,4 +23,7 @@ class Testing < Minitest::Test
 	def test_M
 		assert_equal("M", 1000.roman)
 	end
+	def test_4
+		assert_equal("IV", 4.roman)
+	end
 end
