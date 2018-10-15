@@ -1,7 +1,7 @@
 class Fixnum
 	ROMAN_NUMBERS = {
-			1 => 'I',
-			5 => 'V'
+		5 => 'V',
+		1 => 'I',
 	}
 
 	def roman

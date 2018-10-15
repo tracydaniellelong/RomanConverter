@@ -8,4 +8,7 @@ class Testing < Minitest::Test
 	def test_V
 		assert_equal("V", 5.roman)
 	end
+	def test_X
+		assert_equal("X", 10.roman)
+	end
 end
