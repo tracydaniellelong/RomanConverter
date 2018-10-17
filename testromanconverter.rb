@@ -11,5 +11,11 @@ class Testing < Minitest::Test
 	def test_2
 		assert_equal("II", 2.romanizer())
 	end
+	def test_3
+		assert_equal("III", 3.romanizer())
+	end
+	def test_4
+		assert_equal("IV", 4.romanizer())
+	end
 	
 end
