@@ -3,6 +3,10 @@ class String
 	def convert()
 
 		numbers = {
+			"M" => 1000,
+			"D" => 500,
+			"C" => 100,
+			"L" => 50,
 			"IX" => 9,
 			"X" => 10,
 			"IV" => 4,
