@@ -35,16 +35,37 @@ class Testing < Minitest::Test
 	def test_10
 		assert_equal("X", 10.romanizer())
 	end
+	def test_39
+		assert_equal("XXXIX", 39.romanizer())
+	end
+	def test_40
+		assert_equal("XL", 40.romanizer())
+	end
 	def test_49
-		assert_equal("IL", 49.romanizer())
+		assert_equal("XLIX", 49.romanizer())
 	end
 	def test_50
 		assert_equal("L", 50.romanizer())
 	end
 	def test_99
-		assert_equal("IC", 99.romanizer())
+		assert_equal("XCIX", 99.romanizer())
 	end
 	def test_100
 		assert_equal("C", 100.romanizer())
+	end
+	def test_199
+		assert_equal("CXCIX", 199.romanizer())
+	end
+	def test_500
+		assert_equal("D", 500.romanizer())
+	end
+	def test_599
+		assert_equal("DXCIX", 599.romanizer())
+	end
+	def test_999
+		assert_equal("CMXCIX", 999.romanizer())
+	end
+	def test_1000
+		assert_equal("M", 1000.romanizer())
 	end
 end
