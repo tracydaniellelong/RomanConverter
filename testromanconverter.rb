@@ -32,5 +32,10 @@ class Testing < Minitest::Test
 	def test_9
 		assert_equal("IX", 9.romanizer())
 	end
-	
+	def test_10
+		assert_equal("X", 10.romanizer())
+	end
+	def test_49
+		assert_equal("IL", 49.romanizer())
+	end
 end
