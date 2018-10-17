@@ -20,5 +20,17 @@ class Testing < Minitest::Test
 	def test_10
 		assert_equal(10, "X".convert())
 	end
+	def test_50
+		assert_equal(50, "L".convert())
+	end
+	def test_100
+		assert_equal(100, "C".convert())
+	end
+	def test_500
+		assert_equal(500, "D".convert())
+	end
+	def test_1000
+		assert_equal(1000, "M".convert())
+	end
 
 end
