@@ -54,5 +54,4 @@ class Testing < Minitest::Test
 		assert_equal(1000, "M".convert())
 	end
 
-
 end
