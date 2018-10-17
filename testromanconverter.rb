@@ -56,6 +56,9 @@ class Testing < Minitest::Test
 	def test_199
 		assert_equal("CXCIX", 199.romanizer())
 	end
+	def test_499
+		assert_equal("CDXCIX", 499.romanizer())
+	end
 	def test_500
 		assert_equal("D", 500.romanizer())
 	end
@@ -67,5 +70,11 @@ class Testing < Minitest::Test
 	end
 	def test_1000
 		assert_equal("M", 1000.romanizer())
+	end
+	def test_1066
+		assert_equal("MLXVI", 1066.romanizer())
+	end
+	def test_1989
+		assert_equal("MCMLXXXIX", 1989.romanizer())
 	end
 end
