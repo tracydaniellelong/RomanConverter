@@ -17,5 +17,20 @@ class Testing < Minitest::Test
 	def test_4
 		assert_equal("IV", 4.romanizer())
 	end
+	def test_5
+		assert_equal("V", 5.romanizer())
+	end
+	def test_6
+		assert_equal("VI", 6.romanizer())
+	end
+	def test_7
+		assert_equal("VII", 7.romanizer())
+	end
+	def test_8
+		assert_equal("VIII", 8.romanizer())
+	end
+	def test_9
+		assert_equal("IX", 9.romanizer())
+	end
 	
 end
