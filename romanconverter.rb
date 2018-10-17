@@ -1,23 +1,18 @@
-class Fixnum
+class Integer
 
-	ROMAN_NUMBERS = {
-		1000 => 'M',
-		500 => 'D',
-		100 => 'C',
-		50 => 'L',
-		10 => 'X',
-		9 => 'IX',
-		5 => 'V',
-		4 => 'IV',
-		1 => 'I',
-	}
+	def romanizer()
+		numerals = {
+			1 => 'I'
+		}
 
-	def roman
-		return '' if self == 0
-		ROMAN_NUMBERS.each do |value, letter|
-		   return (letter * (self / value)) << (self % value).roman if value <= self
+		roman = ""
+		num = self
+
+		numerals.each do |value, letter|
+		   roman << letter * (num / value)
+		   num %= value
 		end
-		return (self % value).roman
+		return roman
 	end
 end
 	
