@@ -5,8 +5,11 @@ class Testing < Minitest::Test
 	def test_string
 		assert_equal(String, 1.romanizer().class)
 	end
-	def test_I
+	def test_1
 		assert_equal("I", 1.romanizer())
+	end
+	def test_2
+		assert_equal("II", 2.romanizer())
 	end
 	
 end
