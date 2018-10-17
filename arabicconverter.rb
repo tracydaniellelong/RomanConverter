@@ -3,7 +3,9 @@ class String
 	def convert()
 
 		numbers = {
+			"CM" => 900,
 			"M" => 1000,
+			"CD" => 400,
 			"D" => 500,
 			"XC" => 90,
 			"C" => 100,
