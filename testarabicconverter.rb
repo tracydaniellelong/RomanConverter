@@ -15,7 +15,7 @@ class Testing < Minitest::Test
 		assert_equal(5, "V".convert())
 	end
 	def test_9
-		assert_equal(9, "IV".convert())
+		assert_equal(9, "IX".convert())
 	end
 	def test_10
 		assert_equal(10, "X".convert())
